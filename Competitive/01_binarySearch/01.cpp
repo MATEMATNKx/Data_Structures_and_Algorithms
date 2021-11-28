@@ -14,9 +14,13 @@ int main(){
     for (int i = 0; i < K; ++i){
         cin >> arrayK[i];
     }
+
+    //initialize left and right border on first array
     int left = -1;
     int right = N;
-    int mid = 0;
+    int mid = 0; // pointer on middle element on array
+
+
 
     for (int i = 0; i < K; ++i){
       left = -1;
